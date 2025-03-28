@@ -1,5 +1,3 @@
-"use strict";
-
 let age = 16;
 console.log(age);
 
@@ -21,13 +19,12 @@ console.log(myNull);
 const user = prompt("Введіть ваше ім'я", "");
 let userName = user;
 alert(user);
-console.log(typeof (userName));
+console.log(typeof(userName));
 
 const warning = confirm("Ви дійсно хочете покинути сторінку?");
-let userWarning = warning;
-console.log(userWarning);
+let userAnswer = warning;
+console.log(userAnswer);
 
-const attention = {
-    alert: alert("Увага! Дія може бути небезпечною."),
-    confirm: confirm("Ви впевненні що хочете продовжити?")
-}
+alert("Увага! Дія може бути небезпечною."),
+confirm("Ви впевненні що хочете продовжити?")
+
